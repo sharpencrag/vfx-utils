@@ -29,8 +29,8 @@ from contextlib import contextmanager
 from collections import deque
 
 # internal
-from LightingTools.general_utils.inspections import get_mod_trace
-from LightingTools.system_utils.directories import safe_make_dir
+from vfx_utils.omni.inspections import get_mod_trace
+from vfx_utils.system_utils.directories import safe_make_dir
 
 # -------------------------------------------------------------------------- #
 # --------------------------------------------------------------- GLOBALS -- #

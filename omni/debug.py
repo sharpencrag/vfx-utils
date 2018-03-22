@@ -21,9 +21,9 @@ import sys
 from collections import deque
 
 # internal
-import LightingTools.general_utils.slog as slog
-from LightingTools.general_utils.string_utils import align_right
-import LightingTools.general_utils.inspections as inspections
+import vfx_utils.omni.slog as slog
+from vfx_utils.omni.string_utils import align_right
+import vfx_utils.omni.inspections as inspections
 
 # -------------------------------------------------------------------------- #
 # --------------------------------------------------------------- GLOBALS -- #
@@ -222,7 +222,7 @@ def about_this_stack(indirection=1, strategy=logger.debug):
 # -------------------------------------------------------------------------- #
 # ---------------------------------------------------------- EXAMPLE CODE -- #
 def example():
-    from general_utils.string_utils import make_title
+    from omni.string_utils import make_title
     print make_title('Timed Functions')
     example_timed()
     print make_title('Function Inspection')
