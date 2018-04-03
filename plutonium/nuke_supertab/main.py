@@ -13,10 +13,6 @@
 # -------------------------------------------------------------------------- #
 # --------------------------------------------------------------- IMPORTS -- #
 
-# built-in
-
-# rfx / pipe
-
 # internal
 import vfx_utils.omni.slog as slog
 import vfx_utils.omni.metrics as metrics
