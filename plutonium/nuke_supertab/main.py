@@ -21,9 +21,7 @@
 import vfx_utils.omni.slog as slog
 import vfx_utils.omni.metrics as metrics
 from vfx_utils.plutonium.core.menus import MenuTree, NUKE_MENU_ITEMS
-from vfx_utils.cutie.gadgets.supertab import (SuperTab,
-                                                     SuperAction,
-                                                     SuperActionGroup)
+from vfx_utils.cutie.gadgets.supertab import (SuperTab, SuperAction, SuperActionGroup)
 
 # domain
 import nuke
